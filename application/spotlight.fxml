@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="637.0" prefWidth="946.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.last_hope_controller">
+   <children>
+      <Label prefHeight="57.0" prefWidth="941.0" text="Vellore Institute of Technology (VIT), India" textFill="#f21111">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="126.0" prefHeight="45.0" prefWidth="866.0" text="* The 9th best University, the 10th best research institution and the 12th best engineering institution in India (NIRF Ranking, Govt. of India 2022)" textFill="#179494" wrapText="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="83.0" prefHeight="45.0" prefWidth="866.0" text="* Ranked among the top 601-700 Universities of the world and one among the top 3 Institutions in India (Shanghai ARWU Ranking 2022)" textFill="#179494" wrapText="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="270.0" prefHeight="38.0" prefWidth="866.0" text="* Ranked within the top 200 Universities in Asia (QS - Asia University Rankings 2022)" textFill="#179494" wrapText="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="220.0" prefHeight="38.0" prefWidth="866.0" text="* NAAC Accreditation with A++ grade in the 4th cycle" textFill="#179494" wrapText="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="173.0" prefHeight="45.0" prefWidth="866.0" text="* Engineering and Technology subject areas of VIT are the 346th best in the World and the 9th best in India as per QS World University Rankings by Subject 2022" textFill="#179494" wrapText="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Line endX="802.0" layoutX="139.0" layoutY="57.0" startX="-139.0" strokeWidth="3.0" />
+      <ImageView fitHeight="38.0" fitWidth="37.0" layoutX="21.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Screenshot%202022-10-18%20222437.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="37.0" layoutX="21.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Screenshot%202022-10-18%20222437.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="37.0" layoutX="21.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Screenshot%202022-10-18%20222437.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="37.0" layoutX="21.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Screenshot%202022-10-18%20222437.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="37.0" layoutX="21.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Screenshot%202022-10-18%20222437.png" />
+         </image>
+      </ImageView>
+      <Label layoutY="330.0" prefHeight="17.0" prefWidth="944.0" text="Spotlight" textFill="#e40808">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Line endX="835.0" endY="-1.0" layoutX="109.0" layoutY="370.0" startX="-109.0" startY="-1.0" strokeWidth="3.0" />
+      <ImageView fitHeight="38.0" fitWidth="37.0" layoutX="14.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/fs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="37.0" layoutX="14.0" layoutY="559.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/fs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="37.0" layoutX="14.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/fs.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="37.0" layoutX="14.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/fs.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="78.0" layoutY="401.0" prefHeight="39.0" prefWidth="866.0" text="WINTER SEMESTER 2022-23 REGISTRATION IS OPEN FROM 10:00 AM OF 17-OCT-2022 TO MID NIGHT OF 18-OCT-2022 FOR FACULTY." textFill="#1fa824" wrapText="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="559.0" prefHeight="39.0" prefWidth="866.0" text="TO THE KIND ATTENTION OF ALL2022-2023 (L YEAR BATCH OF GIRL STUDENTS FROM B.TECH. CSE &amp; B.TECH. LT PROGRAMMES)-“AMAZON FUTURE ENGINEER SCHOLARSHIPS”" textFill="#1fa824" wrapText="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="505.0" prefHeight="34.0" prefWidth="866.0" text="PROGRAMME REPRESENTATIVES FOR AY 2022-23" textFill="#1fa824">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="453.0" prefHeight="34.0" prefWidth="866.0" text="VIT VELLORE CAMPUS LAYOUT" textFill="#1fa824">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="862.0" layoutY="593.0" mnemonicParsing="false" onAction="#deanpage" prefHeight="33.0" prefWidth="60.0" text="Exit" textAlignment="CENTER" />
+      <ImageView fitHeight="45.0" fitWidth="50.0" layoutX="892.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/download.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

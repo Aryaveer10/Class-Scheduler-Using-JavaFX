@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="scenepane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="569.0" prefWidth="869.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller">
+   <children>
+      <Button layoutX="387.0" layoutY="170.0" mnemonicParsing="false" onAction="#switchToFaculty" prefHeight="37.0" prefWidth="118.0" style="-fx-background-color: yellow;" text="login" textAlignment="CENTER" textFill="#1aebeb">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="120.0" layoutY="170.0" mnemonicParsing="false" onAction="#switchToAdmin" opacity="0.92" prefHeight="37.0" prefWidth="118.0" style="-fx-background-color: blue;" text="login" textAlignment="CENTER" textFill="#f51cdf">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="653.0" layoutY="170.0" mnemonicParsing="false" onAction="#switchToDean" prefHeight="37.0" prefWidth="118.0" style="-fx-background-color: red;" text="login" textAlignment="CENTER" textFill="#10f239">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Label alignment="CENTER" ellipsisString="ccvc" layoutX="-6.0" layoutY="-7.0" prefHeight="72.0" prefWidth="876.0" style="-fx-background-color: pink;" text="Welcome to the Login Page" textAlignment="CENTER" textFill="#1f2425">
+         <font>
+            <Font name="Arial Bold" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="104.0" text="Faculty" textFill="#10a7e8">
+         <font>
+            <Font name="Arial Black" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="401.0" layoutY="104.0" text="Admin" textAlignment="CENTER" textFill="#fff70d">
+         <font>
+            <Font name="Arial Black" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="674.0" layoutY="104.0" text="Dean" textFill="#da0909">
+         <font>
+            <Font name="Arial Black" size="26.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="329.0" fitWidth="699.0" layoutX="82.0" layoutY="234.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/vit.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="logout" alignment="CENTER" layoutX="794.0" layoutY="516.0" mnemonicParsing="false" onAction="#logoutt" prefHeight="38.0" prefWidth="61.0" style="-fx-background-color: brown;" text="exit" textAlignment="CENTER" textFill="#f6ff00">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="60.0" fitWidth="46.0" layoutX="45.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Pictures/stud2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="46.0" layoutX="317.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/admin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="595.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/dean.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

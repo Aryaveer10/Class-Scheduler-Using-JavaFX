@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="623.0" prefWidth="854.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.last_hope_controller">
+   <children>
+      <Button layoutX="99.0" layoutY="86.0" mnemonicParsing="false" onAction="#wish3" prefHeight="41.0" prefWidth="84.0" text="Wishlist" wrapText="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="7.0" layoutY="86.0" mnemonicParsing="false" onAction="#tt" prefHeight="41.0" prefWidth="84.0" text="Spotlight">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutY="-1.0" prefHeight="75.0" prefWidth="854.0" style="-fx-background-color: pink;" text="Welcome" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Line endX="-100.0" endY="537.0" layoutX="391.0" layoutY="86.0" startX="-100.0" startY="-11.0" strokeWidth="3.0" />
+      <Label layoutX="323.0" layoutY="73.0" prefHeight="68.0" prefWidth="517.0" text="Enter the Subject you want to add into the basket" textFill="#15a1d0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name1" layoutX="341.0" layoutY="214.0" prefHeight="25.0" prefWidth="329.0" promptText="Name" />
+      <TextField fx:id="code1" layoutX="343.0" layoutY="291.0" prefHeight="25.0" prefWidth="329.0" promptText="Code" />
+      <Label layoutX="338.0" layoutY="173.0" prefHeight="25.0" prefWidth="517.0" text="Course Name" textFill="#030303">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="336.0" layoutY="329.0" prefHeight="25.0" prefWidth="517.0" text="Course Slot">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="338.0" layoutY="254.0" prefHeight="25.0" prefWidth="517.0" text="Course Code">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="336.0" layoutY="410.0" prefHeight="25.0" prefWidth="517.0" text="Basket">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="slot1" layoutX="343.0" layoutY="366.0" prefHeight="25.0" prefWidth="329.0" promptText="Slot" />
+      <Button layoutX="772.0" layoutY="571.0" mnemonicParsing="false" onAction="#switchToback" prefHeight="41.0" prefWidth="68.0" text="Exit">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="506.0" layoutY="556.0" mnemonicParsing="false" onAction="#showname" prefHeight="31.0" prefWidth="84.0" text="ADD">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="194.0" layoutY="86.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="84.0" text="Profile">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="mychoice" layoutX="343.0" layoutY="465.0" prefWidth="150.0" />
+      <Line endX="361.0" layoutX="495.0" layoutY="143.0" startX="-203.5" stroke="#c91d0a" strokeWidth="3.0" />
+      <ImageView fitHeight="255.0" fitWidth="242.0" layoutX="29.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/download.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="textlabel" layoutX="415.0" layoutY="512.0" prefHeight="35.0" prefWidth="301.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
